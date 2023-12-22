@@ -12,7 +12,7 @@ public class Visitors extends Сommodity{
         super(name, producer, cost, code, expiration_date, amount);
     }
 
-    public String orderv(){
+    public String order(){
         System.out.println("Введіть продукт який замовили: ");
         System.out.println("1 - Кокакола");
         int check = sc.nextInt();
